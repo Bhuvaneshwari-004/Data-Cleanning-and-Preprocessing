@@ -51,6 +51,27 @@ To clean and prepare the dataset by identifying and handling:
 
 1. Make sure Python is installed on your system.
 2. Install required libraries:
+import pandas as pd
+import numpy as np
+
+df = pd.read_csv("D:/Internship/Mall_Customers.csv")
+
+
+print("Initial data:\n", df.head())
+print("\nMissing values:\n", df.isnull().sum())
+print("\nDuplicates:", df.duplicated().sum())
+
+df.drop_duplicates(inplace=True)
+
+df['Gender'] = df['Gender'].str.lower().str.strip()
+
+# Rename columns
+df.columns = df.columns.str.lower().str.replace(' ', '_')
+
+# Export cleaned data
+df.to_csv('cleaned_mall_customers.csv', index=False)
+
+print("\nCleaned data saved to 'cleaned_mall_customers.csv'")
 
 ---
 ![{7CF97FDD-7153-4B16-87F5-A6FA4A7BE47F}](https://github.com/user-attachments/assets/f49e0643-21c8-4266-b7c9-74b4008bb27d)
