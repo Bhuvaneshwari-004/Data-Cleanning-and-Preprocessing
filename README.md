@@ -46,7 +46,8 @@ To clean and prepare the dataset by identifying and handling:
 - **Columns with missing values**:
   - `Age`: 1 missing
   - `Spending Score (1-100)`: 2 missing
-  ![{10714786-D85C-4A74-A0A8-9BCCA26EB373}](https://github.com/user-attachments/assets/946e4d10-fdc4-4c8c-b692-e7f95faa251f)
+  
+![{10714786-D85C-4A74-A0A8-9BCCA26EB373}](https://github.com/user-attachments/assets/946e4d10-fdc4-4c8c-b692-e7f95faa251f)
 ## 🛠️ How to Run
 
 1. Make sure Python is installed on your system.
