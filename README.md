@@ -48,6 +48,7 @@ To clean and prepare the dataset by identifying and handling:
   - `Spending Score (1-100)`: 2 missing
 
 ---
+![{7CF97FDD-7153-4B16-87F5-A6FA4A7BE47F}](https://github.com/user-attachments/assets/f49e0643-21c8-4266-b7c9-74b4008bb27d)
 
 
 
