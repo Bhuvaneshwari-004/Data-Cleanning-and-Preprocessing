@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Load the dataset
-df = pd.read_csv("D:\Internship\Mall_Customers.csv")
+df = pd.read_csv("D:/Internship/Mall_Customers.csv")
 
 # Inspect the data
 print("Initial data:\n", df.head())
