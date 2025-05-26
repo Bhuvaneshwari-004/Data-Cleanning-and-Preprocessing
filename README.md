@@ -46,9 +46,17 @@ To clean and prepare the dataset by identifying and handling:
 - **Columns with missing values**:
   - `Age`: 1 missing
   - `Spending Score (1-100)`: 2 missing
+  ![{10714786-D85C-4A74-A0A8-9BCCA26EB373}](https://github.com/user-attachments/assets/946e4d10-fdc4-4c8c-b692-e7f95faa251f)
+## 🛠️ How to Run
+
+1. Make sure Python is installed on your system.
+2. Install required libraries:
 
 ---
 ![{7CF97FDD-7153-4B16-87F5-A6FA4A7BE47F}](https://github.com/user-attachments/assets/f49e0643-21c8-4266-b7c9-74b4008bb27d)
+
+## Cleaned file will be generated as cleaned_mall_customers.csv This is the output.
+![{5F9A8ACD-6065-4BB7-B71A-69DE29D3F695}](https://github.com/user-attachments/assets/25d499dd-fa59-438b-914a-ceddbd923447)
 
 
 
